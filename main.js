@@ -76,6 +76,7 @@ function goPrevPage(){
                 paper2.style.zIndex = 2;
                 break;
             case 4:
+                openBook();
                 paper3.classList.remove("flipped");
                 paper3.style.zIndex = 1;
                 break;
